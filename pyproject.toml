@@ -5,7 +5,7 @@ description = "Add your description here"
 authors = [
     { name = "maleicacid", email = "maleicacid824+dev@gmail.com" }
 ]
-dependencies = []
+dependencies = ["fastapi", "uvicorn"]
 readme = "README.md"
 requires-python = ">= 3.8"
 
@@ -21,4 +21,4 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["api/react_deno"]
+packages = ["api/backend1"]
